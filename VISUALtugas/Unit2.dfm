@@ -1,8 +1,8 @@
 object Form2: TForm2
-  Left = 192
-  Top = 152
-  Width = 497
-  Height = 480
+  Left = 497
+  Top = 262
+  Width = 405
+  Height = 257
   Caption = 'Form2'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -55,6 +55,7 @@ object Form2: TForm2
     Height = 25
     Caption = 'No REG'
     TabOrder = 0
+    OnClick = btn1Click
   end
   object btn2: TButton
     Left = 132
@@ -72,6 +73,7 @@ object Form2: TForm2
     Height = 25
     Caption = 'pemilik'
     TabOrder = 2
+    OnClick = btn3Click
   end
   object btn4: TButton
     Left = 84
@@ -80,6 +82,7 @@ object Form2: TForm2
     Height = 25
     Caption = 'petugas'
     TabOrder = 3
+    OnClick = btn4Click
   end
   object btn5: TButton
     Left = 204
@@ -88,5 +91,6 @@ object Form2: TForm2
     Height = 25
     Caption = 'transaksi'
     TabOrder = 4
+    OnClick = btn5Click
   end
 end
