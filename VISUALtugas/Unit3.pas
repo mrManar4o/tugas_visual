@@ -10,7 +10,6 @@ uses
 
 type
   TForm3 = class(TForm)
-    img1: TImage;
     lbl1: TLabel;
     lbl2: TLabel;
     lbl3: TLabel;
